@@ -8,7 +8,6 @@ const Paragraph = styled.p`
   font-size: 1.0625rem;
   letter-spacing: -0.2px;
   line-height: 1.71;
-
   ${color};
   ${space};
   ${typography};
@@ -37,7 +36,19 @@ const ParagraphSmall = styled(Paragraph)`
 `;
 
 const ParagraphTag = styled(Paragraph)`
-  font-size: 1.3rem;
+  font-size: 0.7rem;
+  line-height: 1.63;
+  letter-spacing: 1.63px;
+  font-weight: 700;
+  text-transform: uppercase;
+  ${color};
+  ${space};
+  ${typography};
+  ${shadow};
+`;
+
+const ParagraphIntro = styled(Paragraph)`
+  font-size: calc(18px + 6 * ((100vw - 320px) / 680));
   line-height: 1.63;
   letter-spacing: 1.63px;
   font-weight: 700;
@@ -60,6 +71,9 @@ const Text = ({ variant = "lg", ...props }) => {
       break;
     case "tag":
       TextRender = ParagraphTag;
+      break;
+    case "intro":
+      TextRender = ParagraphIntro;
       break;
     case "p":
       TextRender = Paragraph;

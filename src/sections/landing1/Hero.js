@@ -27,19 +27,20 @@ const Hero = () => {
             <Col lg="7" className="mb-5 mb-lg-0">
               <Box>
                 <Text
-                  variant="tag"
+                  variant="intro"
                   mb={5}
                   className="text-lowercase"
-                  color="heading"
+                  color="tag"
                   mb="40px"
                 >
-                  model ・ creator ・ developer
+                  freelance model ・ ar/web developer
                 </Text>
                 <Title variant="hero">
-                  i'm a multidisciplinary<br></br>
-                  developer & creator.
+                  i'm a tokyo-based<br/>
+                  multidisciplinary creator.
                 </Title>
-                <Box mt="52px">
+                <Row>
+                <Box m="5px" mt="50px">
                   <Link
                     to="works"
                     spy={true}
@@ -47,8 +48,10 @@ const Hero = () => {
                     offset={-50}
                     duration={1000}
                   >
-                    <Button arrowRight>see work</Button>
+                    <Button>see work</Button>
                   </Link>
+                </Box>
+                <Box m="5px" mt="50px">
                   <Link
                     to="contact"
                     spy={true}
@@ -56,13 +59,14 @@ const Hero = () => {
                     offset={-50}
                     duration={1000}
                   >
-                    <Button arrowRight>book me</Button>
+                    <Button arrowRight>contact</Button>
                   </Link>
                 </Box>
+                </Row>
               </Box>
             </Col>
             <Col lg="5" md="8" sm="9">
-              <div className="text-center text-lg-right position-relative">
+              <div className="text-md-center text-lg-right text-center">
                 <div className="img-main">
                   <ImgRight src={imgL} alt="" />
                 </div>

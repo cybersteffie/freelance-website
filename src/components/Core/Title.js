@@ -50,23 +50,22 @@ const SectionSm = styled(SectionTitle)`
 `;
 
 const HeroTitle = styled(SectionTitle)`
-  letter-spacing: -2.81px;
-  font-size: 30px;
-  line-height: 56px;
+  font-size: 40px;
+  line-height: 40px;
 
   @media ${device.sm} {
-    font-size: 66px;
-    line-height: 70px;
+    font-size: calc(60px * ((100vw - 320px) / 680));
+    line-height: 55px;
   }
 
   @media ${device.lg} {
-    font-size: 76px;
-    line-height: 84px;
+    font-size: calc(70px * ((100vw - 320px) / 680));
+    line-height: 64px;
   }
 
   @media ${device.xl} {
-    font-size: 80px;
-    line-height: 84px;
+    font-size: calc(75px * ((100vw - 320px) / 680));
+    line-height: 70px;
   }
 `;
 

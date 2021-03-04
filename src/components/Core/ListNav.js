@@ -7,7 +7,7 @@ const ListNav = styled.ul`
     justify-content:center;
     a {
       color: ${({ theme }) => theme.colors.text} !important;
-      font-size: 0.8125rem;
+      font-size: 1rem;
       line-height: 1.63;
       letter-spacing: 1.63px;
       &.active {

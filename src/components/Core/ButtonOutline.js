@@ -17,7 +17,8 @@ const ButtonStyled = styled.button`
   letter-spacing: 1.63px;
   text-transform: uppercase;
   padding: 23px 30px;
-  border-radius: 50rem;
+  margin: 30px !important;
+  border-radius: 30rem;
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
@@ -39,6 +40,7 @@ const ButtonStyled = styled.button`
   ${flexbox};
   ${layout};
   transition: 0.4s ease-out;
+
 
   &:hover,
   &:focus,

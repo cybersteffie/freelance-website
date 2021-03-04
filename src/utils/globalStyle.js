@@ -43,6 +43,10 @@ const globalStyle = createGlobalStyle`
     input[type="number"] {
       -moz-appearance: textfield; /* Firefox */
     }
+
+    button {
+      padding: 10px;
+    }
 `;
 
 export default globalStyle;

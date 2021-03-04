@@ -38,7 +38,7 @@ const Works = () => {
         <Container>
           <Box mb="2.5rem">
             <ListNav className="nav text-center">
-              {/* <li className="nav-item">
+              <li className="nav-item">
                 <a
                   className={`nav-link font-weight-bold text-uppercase ${
                     activeLink === "*" ? "active" : null
@@ -50,44 +50,31 @@ const Works = () => {
                 >
                   All works
                 </a>
-              </li> */}
+              </li>
               <li className="nav-item">
                 <a
                   className={`nav-link font-weight-bold text-uppercase ${
-                    activeLink === "branding" ? "active" : null
+                    activeLink === "web" ? "active" : null
                   }`}
                   onClick={(e) => {
                     e.preventDefault();
-                    filterBy("branding");
+                    filterBy("web");
                   }}
                 >
-                  Branding
+                 WEB
                 </a>
               </li>
               <li className="nav-item">
                 <a
                   className={`nav-link font-weight-bold text-uppercase ${
-                    activeLink === "ux-design" ? "active" : null
+                    activeLink === "photo" ? "active" : null
                   }`}
                   onClick={(e) => {
                     e.preventDefault();
-                    filterBy("ux-design");
+                    filterBy("photo");
                   }}
                 >
                  PHOTO
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className={`nav-link font-weight-bold text-uppercase ${
-                    activeLink === "photography" ? "active" : null
-                  }`}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    filterBy("photography");
-                  }}
-                >
-                  COMMERCIAL
                 </a>
               </li>
               <li className="nav-item">

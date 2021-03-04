@@ -4,7 +4,7 @@ $primary: #729de0;
 $secondary: #f5f5f7;
 $success: #56b381;
 $bg: #ffffff;
-$heading: #161c2d;
+$heading: #729de0;
 $text: #161c2d;
 $white: $bg;
 $black: $heading;
@@ -43,4 +43,9 @@ $headings-font-weight: 700;
 .modal,
 .modal-backdrop {
   z-index: 99999 !important;
+}
+
+// Fix for Nav center
+.nav {
+  justify-content: center !important;
 }
