@@ -24,7 +24,7 @@ const Footer = ({ isDark = true }) => {
               `}
               className="text-uppercase"
             >
-               2021 © STEFFIE HARNER
+              2021 © STEFFIE HARNER
             </Title>
           </div>
         </Container>

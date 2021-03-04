@@ -101,7 +101,7 @@ const Works = () => {
           >
             {items.map((item, index) => (
               <Col lg="4" md="6" sm="6" key={index} className="filtr-item">
-                <WorkCard workItem={item} mb="30px" link={item.link}/>
+                <WorkCard workItem={item} mb="30px" link={item.link} />
               </Col>
             ))}
           </Masonry>

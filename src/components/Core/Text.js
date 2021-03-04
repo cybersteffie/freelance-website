@@ -2,11 +2,12 @@ import React from "react";
 import styled from "styled-components";
 import { color, space, typography, shadow } from "styled-system";
 
+import { device } from "../../utils";
+
 const Paragraph = styled.p`
   margin-bottom: 0;
   font-weight: 400;
   font-size: 1.0625rem;
-  letter-spacing: -0.2px;
   line-height: 1.71;
   ${color};
   ${space};
@@ -17,7 +18,6 @@ const Paragraph = styled.p`
 const ParagraphLg = styled(Paragraph)`
   font-size: 21px;
   font-weight: 400;
-  letter-spacing: -0.66px;
   line-height: 38px;
   ${color};
   ${space};
@@ -27,7 +27,6 @@ const ParagraphLg = styled(Paragraph)`
 
 const ParagraphSmall = styled(Paragraph)`
   font-size: 16px;
-  letter-spacing: -0.5px;
   line-height: 28px;
   ${color};
   ${space};
@@ -48,11 +47,22 @@ const ParagraphTag = styled(Paragraph)`
 `;
 
 const ParagraphIntro = styled(Paragraph)`
-  font-size: calc(18px + 6 * ((100vw - 320px) / 680));
+  font-size: calc(10px * ((100vw - 320px) / 680));
   line-height: 1.63;
   letter-spacing: 1.63px;
-  font-weight: 700;
+  font-weight: 500 !important;
   text-transform: uppercase;
+
+  @media ${device.sm} {
+    font-size: calc(20px + 2 * ((100vw - 320px) / 680));
+    line-height: 62px;
+  }
+
+  @media ${device.lg} {
+    font-size: calc(20px + 2 * ((100vw - 320px) / 680));
+    line-height: 70px;
+  }
+
   ${color};
   ${space};
   ${typography};

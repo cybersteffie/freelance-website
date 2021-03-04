@@ -25,21 +25,19 @@ const Panel = styled(Box)`
   padding-top: 15px;
   padding-bottom: 15px;
   text-align: center;
-  border-bottom-left-radius: 25px;
 `;
 
 const TextBox = styled(Box)`
   color: #ffffff;
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: -0.09px;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 1px !important;
   line-height: 26px;
   padding-bottom: 8px;
 `;
 
 const ButtonGroup = styled(Box)`
   box-shadow: 0 12px 34px rgba(22, 28, 45, 0.2);
-  border-radius: 33px;
   background-color: #ffffff;
   overflow: hidden;
   display: flex;
@@ -75,8 +73,7 @@ const ButtonToggle = styled.button`
   position: absolute;
   left: 1px;
   top: 0;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  clip-path: polygon(-10% -10%, 110% -10%, 110% 110%, 40% 110%, -10% 40%);
   transform: translateX(-100%);
   outline: none !important;
   ${color};
@@ -102,7 +99,7 @@ const ThemeSwitch = (props) => {
         {...props}
       >
         <Panel bg="primary" className="position-relative">
-          <TextBox>Change Version</TextBox>
+          <TextBox>SELECT MODE</TextBox>
           <ButtonGroup>
             <Button
               className={!gContext.theme.bodyDark ? "active" : ""}

@@ -40,7 +40,7 @@ const Works = () => {
             <ListNav className="nav text-center">
               <li className="nav-item">
                 <a
-                  className={`nav-link font-weight-bold text-uppercase ${
+                  className={`nav-link font-weight-bold text-lowercase ${
                     activeLink === "*" ? "active" : null
                   }`}
                   onClick={(e) => {
@@ -48,12 +48,12 @@ const Works = () => {
                     filterBy("*");
                   }}
                 >
-                  All works
+                  all works
                 </a>
               </li>
               <li className="nav-item">
                 <a
-                  className={`nav-link font-weight-bold text-uppercase ${
+                  className={`nav-link font-weight-bold text-lowercase ${
                     activeLink === "web" ? "active" : null
                   }`}
                   onClick={(e) => {
@@ -61,12 +61,12 @@ const Works = () => {
                     filterBy("web");
                   }}
                 >
-                 WEB
+                  WEB
                 </a>
               </li>
               <li className="nav-item">
                 <a
-                  className={`nav-link font-weight-bold text-uppercase ${
+                  className={`nav-link font-weight-bold text-lowercase ${
                     activeLink === "photo" ? "active" : null
                   }`}
                   onClick={(e) => {
@@ -74,12 +74,12 @@ const Works = () => {
                     filterBy("photo");
                   }}
                 >
-                 PHOTO
+                  PHOTO
                 </a>
               </li>
               <li className="nav-item">
                 <a
-                  className={`nav-link font-weight-bold text-uppercase ${
+                  className={`nav-link font-weight-bold text-lowercase ${
                     activeLink === "ux-design" ? "active" : null
                   }`}
                   onClick={(e) => {
@@ -101,7 +101,7 @@ const Works = () => {
           >
             {items.map((item, index) => (
               <Col lg="3" md="4" sm="6" key={index} className="filtr-item">
-                <WorkCard workItem={item} mb="30px" link={item.link}/>
+                <WorkCard workItem={item} mb="30px" link={item.link} />
               </Col>
             ))}
           </Masonry>

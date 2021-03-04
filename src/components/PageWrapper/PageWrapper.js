@@ -1,6 +1,7 @@
 import React, { useEffect, useContext } from "react";
 
 import GlobalContext from "../../context/GlobalContext";
+import { ContextMenu, MenuItem, ContextMenuTrigger } from "react-contextmenu";
 
 const themeConfigDefault = {
   headerDark: false,
@@ -23,7 +24,19 @@ const PageWrapper = ({ children, darkTheme = false, themeConfig = null }) => {
     }
   }, []);
 
-  return <>{children}</>;
+  const handleClick = (e, data) => {
+    console.log(data.foo);
+  };
+
+  return (
+    <ContextMenuTrigger id="same_unique_identifier">
+      <ContextMenu id="same_unique_identifier">
+        <MenuItem data={{ foo: "bar" }} onClick={handleClick}>
+          {children}
+        </MenuItem>
+      </ContextMenu>
+    </ContextMenuTrigger>
+  );
 };
 
 export default PageWrapper;

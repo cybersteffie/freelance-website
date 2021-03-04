@@ -49,7 +49,8 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 1.5;
                   `}
                 >
-                  Tokyo-based cyberpunk creator, and web developer. I can create memorable digital art & experiences for brands.
+                  Tokyo-based cyberpunk creator, and web developer. I can create
+                  memorable digital art & experiences for brands.
                 </Text>
                 <Text color="light" className="mt-4">
                   I strive for a minimal and beautiful design.
@@ -82,7 +83,7 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                     rel="noopener noreferrer"
                     className=" mr-3"
                   >
-                   <FaTwitter/>
+                    <FaTwitter />
                   </LinkSocial>
                   <LinkSocial
                     href="https://www.facebook.com"
@@ -90,7 +91,7 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                     rel="noopener noreferrer"
                     className="mr-3"
                   >
-                   <FaFacebookF/>
+                    <FaFacebookF />
                   </LinkSocial>
                   <LinkSocial
                     href="https://www.instagram.com"
@@ -98,7 +99,7 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                     rel="noopener noreferrer"
                     className="font-weight-bold"
                   >
-                   <FaInstagram/>
+                    <FaInstagram />
                   </LinkSocial>
                 </div>
               </div>

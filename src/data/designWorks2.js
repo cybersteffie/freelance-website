@@ -15,8 +15,8 @@ export const designWorks2 = [
     categories: [`branding`],
     thumbnail: imgT1,
     halfWidth: false,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Travel App`,
     slug: `travel-app`,
@@ -24,8 +24,8 @@ export const designWorks2 = [
     categories: [`photography`, `branding`],
     thumbnail: imgT2,
     halfWidth: false,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Shopper`,
     slug: `shopper`,
@@ -33,8 +33,8 @@ export const designWorks2 = [
     categories: [`marketing`, `ux-design`, `branding`],
     thumbnail: imgT3,
     halfWidth: false,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Candy Store`,
     slug: `candy-store`,
@@ -42,8 +42,8 @@ export const designWorks2 = [
     categories: [`branding`],
     thumbnail: imgT4,
     halfWidth: true,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Travel App`,
     slug: `travel-app`,
@@ -51,8 +51,8 @@ export const designWorks2 = [
     categories: [`photography`, `branding`, `ux-design`],
     thumbnail: imgT5,
     halfWidth: true,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Ice Cream`,
     slug: `ice-cream`,
@@ -60,8 +60,8 @@ export const designWorks2 = [
     categories: [`marketing`, `branding`],
     thumbnail: imgT6,
     halfWidth: false,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Camera`,
     slug: `Camera`,
@@ -69,8 +69,8 @@ export const designWorks2 = [
     categories: [`branding`, `photography`],
     thumbnail: imgT7,
     halfWidth: false,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Smart Watch`,
     slug: `smart-watch`,
@@ -78,6 +78,6 @@ export const designWorks2 = [
     categories: [`ux-design`, `branding`],
     thumbnail: imgT8,
     halfWidth: false,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
 ];

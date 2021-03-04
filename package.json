@@ -22,8 +22,11 @@
     "lodash": "^4.17.15",
     "polished": "^3.4.2",
     "react": "^16.10.2",
+    "react-animated-cursor": "^2.1.8",
     "react-bootstrap": "^1.0.0-beta.15",
+    "react-contextmenu": "^2.14.0",
     "react-countdown": "^2.2.1",
+    "react-cursor": "^2.0.15",
     "react-dom": "^16.10.2",
     "react-headroom": "^3.0.0",
     "react-helmet": "^5.2.0",
@@ -44,6 +47,7 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
+    "pretty": "yarn prettier --write",
     "dev": "yarn develop",
     "build": "gatsby clean && gatsby build",
     "clean": "gatsby clean",
@@ -52,6 +56,6 @@
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\""
   },
   "devDependencies": {
-    "prettier": "^1.17.0"
+    "prettier": "2.2.1"
   }
 }

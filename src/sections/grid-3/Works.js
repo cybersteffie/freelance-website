@@ -130,10 +130,7 @@ const Works = () => {
             {items.map((item, index) => (
               <Col lg="4" md="6" key={index} className="filtr-item">
                 <WorkCard className="position-relative" mb="30px">
-                  <RotateImg
-                    link={item.link}
-                    imgSrc={item.thumbnail}
-                  />
+                  <RotateImg link={item.link} imgSrc={item.thumbnail} />
                   <Box pt="2.125rem">
                     <WorkText className="overflow-hidden text-center">
                       <Text variant="tag" mb="0.5rem">

@@ -15,7 +15,7 @@ import {
 const Box = styled.div`
   box-sizing: border-box;
   min-width: 0;
-  justify-content:center;
+  justify-content: center;
   ${color};
   ${space};
   ${layout};

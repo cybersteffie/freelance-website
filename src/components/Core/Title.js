@@ -52,6 +52,7 @@ const SectionSm = styled(SectionTitle)`
 const HeroTitle = styled(SectionTitle)`
   font-size: 40px;
   line-height: 40px;
+  font-weight: 800;
 
   @media ${device.sm} {
     font-size: calc(60px * ((100vw - 320px) / 680));

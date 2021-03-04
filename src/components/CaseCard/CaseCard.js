@@ -22,10 +22,10 @@ const BrandImage = styled(Box)`
     border-radius: 8px;
     border: 1px solid #eae9f2;
     -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -o-user-select: none;
-  user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
   }
 `;
 

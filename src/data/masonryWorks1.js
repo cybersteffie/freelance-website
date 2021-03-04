@@ -14,62 +14,62 @@ export const masonryWorks1 = [
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`branding`],
     thumbnail: imgT1,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Travel App`,
     slug: `travel-app`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`photography`],
     thumbnail: imgT2,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Shopper`,
     slug: `shopper`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`branding`, `ux-design`],
     thumbnail: imgT3,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Candy Store`,
     slug: `candy-store`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`photography`, `ux-design`, `branding`],
     thumbnail: imgT4,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Travel App`,
     slug: `travel-app`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`photography`, `ux-design`],
     thumbnail: imgT5,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `App Ice Cream`,
     slug: `app-ice-cream`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`ux-design`, `branding`],
     thumbnail: imgT6,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Camera`,
     slug: `Camera`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`photography`, `ux-design`],
     thumbnail: imgT7,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Smart Watch`,
     slug: `smart-watch`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`branding`],
     thumbnail: imgT8,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
 ];

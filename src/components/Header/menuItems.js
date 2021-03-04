@@ -19,11 +19,11 @@ export const menuItems = [
     items: [
       {
         name: "#photo",
-        label: "photo"
+        label: "photo",
       },
       {
         name: "#web",
-        label: "web"
+        label: "web",
       },
       {
         name: "#ar-filter",
@@ -39,7 +39,7 @@ export const menuItems = [
         //   },
 
         // ],
-      }
+      },
     ],
   },
   // {

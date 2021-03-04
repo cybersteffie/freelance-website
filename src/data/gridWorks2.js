@@ -15,70 +15,70 @@ export const gridWorks2 = [
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`photography`],
     thumbnail: imgT1,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Travel App`,
     slug: `travel-app`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`ux-design`],
     thumbnail: imgT2,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Shopper`,
     slug: `shopper`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`photography`],
     thumbnail: imgT3,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Candy Store`,
     slug: `candy-store`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`branding`],
     thumbnail: imgT4,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Travel App`,
     slug: `travel-app`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`photography`, `ux-design`],
     thumbnail: imgT5,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Ice Cream`,
     slug: `ice-cream`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`branding`, `ux-design`],
     thumbnail: imgT6,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Camera`,
     slug: `Camera`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`branding`, `photography`],
     thumbnail: imgT7,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Smart Watch`,
     slug: `smart-watch`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`ux-design`],
     thumbnail: imgT8,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Perfumed`,
     slug: `perfumed`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`photography`],
     thumbnail: imgT9,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
 ];

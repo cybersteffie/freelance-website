@@ -25,12 +25,7 @@ const ContactForm = ({ theme = "dark", ...rest }) => {
         <Input type="text" placeholder="subject" required name="subject" />
       </div>
       <div className="mt-4 ">
-        <TextArea
-          rows={4}
-          placeholder="message"
-          required
-          name="message"
-        />
+        <TextArea rows={4} placeholder="message" required name="message" />
       </div>
       <div className="mt-4 mt-lg-5">
         <Button arrowRight variant="primary" type="submit">

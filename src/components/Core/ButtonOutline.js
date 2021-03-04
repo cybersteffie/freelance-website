@@ -41,7 +41,6 @@ const ButtonStyled = styled.button`
   ${layout};
   transition: 0.4s ease-out;
 
-
   &:hover,
   &:focus,
   &:active {

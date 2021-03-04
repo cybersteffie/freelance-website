@@ -83,7 +83,7 @@ const Layout = ({ children, pageContext }) => {
   useEffect(() => {
     window.addEventListener(
       "popstate",
-      function(event) {
+      function (event) {
         // The popstate event is fired each time when the current history entry changes.
         gContext.closeAbout();
         gContext.closeContact();
@@ -92,7 +92,7 @@ const Layout = ({ children, pageContext }) => {
     );
     window.addEventListener(
       "pushState",
-      function(event) {
+      function (event) {
         // The pushstate event is fired each time when the current history entry changes.
         gContext.closeAbout();
         gContext.closeContact();

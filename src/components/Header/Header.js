@@ -53,8 +53,8 @@ const Menu = styled.ul`
         transition: 0.4s;
         align-items: center;
         display: inline-flex;
-        font-size: 15px;
-        font-weight: 700;
+        font-size: 20px;
+        font-weight: 800;
         line-height: 24px;
         padding-top: 18px !important;
         padding-bottom: 18px !important;

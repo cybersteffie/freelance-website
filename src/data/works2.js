@@ -22,126 +22,126 @@ export const works2 = [
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`branding`],
     thumbnail: imgT1,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Travel App`,
     slug: `travel-app`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`photography`, `branding`],
     thumbnail: imgT2,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Shopper`,
     slug: `shopper`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`marketing`, `ux-design`],
     thumbnail: imgT3,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Candy Store`,
     slug: `candy-store`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`branding`],
     thumbnail: imgT4,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Travel App`,
     slug: `travel-app`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`photography`, `ux-design`],
     thumbnail: imgT5,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Ice Cream`,
     slug: `ice-cream`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`branding`, `marketing`],
     thumbnail: imgT6,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Camera`,
     slug: `Camera`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`branding`, `photography`],
     thumbnail: imgT7,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Smart Watch`,
     slug: `smart-watch`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`ux-design`],
     thumbnail: imgT8,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Smart Film`,
     slug: `smart-film`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`marketing`, `ux-design`, `photography`],
     thumbnail: imgT9,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Coffee Cream`,
     slug: `coffee-cream`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`marketing`, `ux-design`],
     thumbnail: imgT10,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Noodles`,
     slug: `noodles`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`marketing`, `photography`],
     thumbnail: imgT11,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Laptop Desk`,
     slug: `laptop-desk`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`ux-design`, `photography`, `branding`],
     thumbnail: imgT12,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Candy Store`,
     slug: `candy-store`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`ux-design`],
     thumbnail: imgT13,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Caffee Roast`,
     slug: `coffee-roast`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`ux-design`],
     thumbnail: imgT14,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Candy Store`,
     slug: `candy-store`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`ux-design`],
     thumbnail: imgT15,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
   {
     brand: `Travel App`,
     slug: `travel-app`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`branding`, `photography`, `ux-design`],
     thumbnail: imgT16,
-  link : "/portfolio-details"
-},
+    link: "/portfolio-details",
+  },
 ];

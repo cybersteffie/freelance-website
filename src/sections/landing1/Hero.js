@@ -28,40 +28,43 @@ const Hero = () => {
               <Box>
                 <Text
                   variant="intro"
-                  mb={5}
+                  mb={3}
                   className="text-lowercase"
                   color="tag"
                   mb="40px"
                 >
                   freelance model ・ ar/web developer
                 </Text>
-                <Title variant="hero">
-                  i'm a tokyo-based<br/>
+                <Title mb={5} variant="hero">
+                  i'm a tokyo-based
+                  <br />
                   multidisciplinary creator.
                 </Title>
                 <Row>
-                <Box m="5px" mt="50px">
-                  <Link
-                    to="works"
-                    spy={true}
-                    smooth={true}
-                    offset={-50}
-                    duration={1000}
-                  >
-                    <Button>see work</Button>
-                  </Link>
-                </Box>
-                <Box m="5px" mt="50px">
-                  <Link
-                    to="contact"
-                    spy={true}
-                    smooth={true}
-                    offset={-50}
-                    duration={1000}
-                  >
-                    <Button arrowRight>contact</Button>
-                  </Link>
-                </Box>
+                  <Box m="5px">
+                    <Link
+                      to="works"
+                      spy={true}
+                      smooth={true}
+                      offset={-50}
+                      duration={1000}
+                    >
+                      <Button data-glitch="see work">see work</Button>
+                    </Link>
+                  </Box>
+                  <Box m="5px">
+                    <Link
+                      to="contact"
+                      spy={true}
+                      smooth={true}
+                      offset={-50}
+                      duration={1000}
+                    >
+                      <Button data-glitch="contact" arrowRight>
+                        contact
+                      </Button>
+                    </Link>
+                  </Box>
                 </Row>
               </Box>
             </Col>

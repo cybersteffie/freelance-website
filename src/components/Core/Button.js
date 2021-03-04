@@ -18,7 +18,6 @@ const ButtonStyled = styled.button`
   text-transform: uppercase;
   padding: 23px 30px;
   box-shadow: 0 32px 54px rgba(3, 3, 3, 0.12);
-  border-radius: 50rem;
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
@@ -29,9 +28,10 @@ const ButtonStyled = styled.button`
   border: none;
   outline: none !important;
   white-space: nowrap;
+  clip-path: polygon(-10% -10%, 110% -10%, 110% 110%, 10% 110%, -10% 40%);
   ${color};
     background-image: linear-gradient(270deg,#6e8ce6,#f36fda)!important;
-  ${border};
+  /* ${border}; */
   ${space};
   ${typography};
   ${shadow};
@@ -44,7 +44,46 @@ const ButtonStyled = styled.button`
   &:active {
     transform: translateY(-10px);
     box-shadow: 0 32px 54px rgba(3, 3, 3, 0.14);
+		display: block;
+		content: attr(data-glitch);
+		opacity: .8;
+	} &:after {
+		color: #f0f;
+		z-index: -2;
+	} &:before {
+		color: #0ff;
+		z-index: -1;
+	}
+	&:hover {
+		&:before {
+			animation: glitch .3s cubic-bezier(.25, .46, .45, .94) both 5
+		}
+		&:after {
+			animation: glitch .3s cubic-bezier(.25, .46, .45, .94) reverse both 5
+		}
+	}
   }
+
+  @keyframes glitch {
+	0% {
+		transform: translate(0)
+	}
+	20% {
+		transform: translate(-5px, 5px)
+	}
+	40% {
+		transform: translate(-5px, -5px)
+	}
+	60% {
+		transform: translate(5px, 5px)
+	}
+	80% {
+		transform: translate(5px, -5px)
+	}
+	to {
+		transform: translate(0)
+	}
+}
 `;
 
 const Button = ({
