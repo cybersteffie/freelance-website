@@ -4,6 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-scroll";
 
 import { Title, Button, Section, Box, Text } from "../../components/Core";
+import ThreeBox from "../../components/ThreeBox";
 
 import { device } from "../../utils";
 import imgL from "../../assets/image/png/portrait-1.png";
@@ -33,7 +34,7 @@ const Hero = () => {
                   color="tag"
                   mb="40px"
                 >
-                  freelance model ・ ar/web developer
+                  freelance model・ar/web developer
                 </Text>
                 <Title mb={5} variant="hero">
                   i'm a tokyo-based
@@ -68,12 +69,15 @@ const Hero = () => {
                 </Row>
               </Box>
             </Col>
-            <Col lg="5" md="8" sm="9">
-              <div className="text-md-center text-lg-right text-center">
+            <Col lg="5" md="12" sm="12">
+            <Box className="d-lg-block d-none" postion="absolute" height="400px">
+            <ThreeBox/>
+              {/* <div className="text-md-center text-lg-right text-center">
                 <div className="img-main">
                   <ImgRight src={imgL} alt="" />
                 </div>
-              </div>
+              </div> */}
+              </Box>
             </Col>
           </Row>
         </Container>
