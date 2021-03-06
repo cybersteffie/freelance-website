@@ -34,7 +34,7 @@ const Hero = () => {
                   color="tag"
                   mb="40px"
                 >
-                  freelance model・ar/web developer
+                  concept artist・ar/web developer
                 </Text>
                 <Title mb={5} variant="hero">
                   i'm a tokyo-based

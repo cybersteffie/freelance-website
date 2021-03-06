@@ -1,7 +1,6 @@
 import React from "react";
 import { Element } from "react-scroll";
 import AnimatedCursor from "react-animated-cursor";
-
 import PageWrapper from "../components/PageWrapper";
 import Hero from "../sections/landing1/Hero";
 import Works from "../sections/landing1/Works";

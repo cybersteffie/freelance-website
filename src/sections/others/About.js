@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Container, Row, Col } from "react-bootstrap";
+import AnimatedCursor from "react-animated-cursor";
 import {
   FaFacebookF,
   FaTwitter,
@@ -29,6 +30,14 @@ const LinkSocial = styled.a`
 const About = ({ hero = true, bg = "dark", ...rest }) => {
   return (
     <>
+  <AnimatedCursor
+  innerSize={8}
+  outerSize={8}
+  color="245,246,248"
+  outerAlpha={0.4}
+  innerScale={0.7}
+  outerScale={7}
+  />
       <Section hero={hero} bg={bg} {...rest}>
         <Container>
           <Row className="align-items-center">
