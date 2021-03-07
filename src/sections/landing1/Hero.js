@@ -6,8 +6,8 @@ import { Link } from "react-scroll";
 import { Title, Button, Section, Box, Text } from "../../components/Core";
 import ThreeBox from "../../components/ThreeBox";
 
-import { device } from "../../utils";
-import imgL from "../../assets/image/png/portrait-1.png";
+// import { device } from "../../utils";
+// import imgL from "../../assets/image/png/portrait-1.png";
 
 const ImgRight = styled.img`
   max-width: 100%;

@@ -55,10 +55,10 @@ function Box(props) {
     <mesh
       {...props}
       ref={mesh}
-      scale={active ? [2, 2, 2] : [1.2, 1.2, 1.2]}
-      onClick={(e) => changeColor(!color)}
-      onPointerOver={(e) => setActive(false)}
-      onPointerOut={(e) => setActive(true)}>
+      scale={active ? [2, 2, 2] : [2.5, 2.5, 2.5]}
+      onClick={(e) => setActive(!active) }
+      onPointerOver={(e) => changeColor(!color)}
+      onPointerOut={(e) => changeColor(!color)}>
       camera={[position.x,position.y,windowSize.height]}
       <boxBufferGeometry args={[1.2, 1.2, 1.2]} />
       <meshStandardMaterial color={color ? 'hotpink' : 'purple'} metalness={0.1}/>
@@ -72,7 +72,6 @@ export default function ThreeBox() {
       <ambientLight intensity={0.5} />
       <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
       <pointLight position={[-10, -10, -10]} />
-      <fog attach="fog" args={['#cc7b32', 16, 20]} />
       <Box position={[0, 0, 0]} />
     </Canvas>
   )
