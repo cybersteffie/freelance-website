@@ -30,8 +30,7 @@ const Contact = ({ pattern = true }) => {
             <Col lg="11" xl="10" className="text-center">
               <Box>
                 <Title variant="secSm">
-                  I am taking new projects. Waiting to hearing about new
-                  projects, so if you'd like to chat please get in touch.
+                  Taking new projects, so if you're a cyber creator, 3d artist & like to chat please get in touch.
                 </Title>
 
                 <Box
@@ -40,21 +39,15 @@ const Contact = ({ pattern = true }) => {
                 >
                   <div className="d-flex flex-column flex-lg-row justify-content-center">
                     <LinkContact
-                      href="mailto:contact@folio.design"
+                      href="mailto:hi@steffieharner.com"
                       target="_blank"
                       className="mb-2 mb-lg-0"
                     >
-                      contact@folio.design
+                      hi@steffieharner.com
                     </LinkContact>
                     <span className="divider mx-2 mx-lg-4 d-none d-lg-block">
                       |
                     </span>
-                    <LinkContact
-                      href="https://www.linkedin.com/folio"
-                      target="_blank"
-                    >
-                      linkedin.com/folio
-                    </LinkContact>
                   </div>
                 </Box>
               </Box>

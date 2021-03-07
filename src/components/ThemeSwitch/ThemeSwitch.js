@@ -111,7 +111,7 @@ const ThemeSwitch = (props) => {
                 })
               }
             >
-              Light
+              ☾
             </Button>
             <Button
               className={gContext.theme.bodyDark ? "active" : ""}
@@ -123,7 +123,7 @@ const ThemeSwitch = (props) => {
                 })
               }
             >
-              dark
+              ☼
             </Button>
           </ButtonGroup>
           <ButtonToggle

@@ -6,13 +6,13 @@ import {
   FaFacebookF,
   FaTwitter,
   FaInstagram,
-  FaLinkedinIn,
+  FaLinkedin,
   FaGithub,
 } from "react-icons/fa";
 
 import { Section, Title, Text, Span } from "../../components/Core";
-import imgPhoto from "../../assets/image/jpg/portfolio-about.jpg";
-import imgSignLight from "../../assets/image/png/signature.png";
+import imgPhoto from "../../assets/image/jpg/headshots/steffie-harner-cyberpunk-concept-artist.jpeg";
+// import imgSignLight from "../../assets/image/png/signature.png";
 
 const LinkSocial = styled.a`
   color: ${({ theme }) => theme.colors.light} !important;
@@ -30,14 +30,14 @@ const LinkSocial = styled.a`
 const About = ({ hero = true, bg = "dark", ...rest }) => {
   return (
     <>
-  <AnimatedCursor
-  innerSize={8}
-  outerSize={8}
-  color="245,246,248"
-  outerAlpha={0.4}
-  innerScale={0.7}
-  outerScale={7}
-  />
+        <AnimatedCursor
+        innerSize={8}
+        outerSize={8}
+        color="245,246,248"
+        outerAlpha={0.4}
+        innerScale={0.7}
+        outerScale={7}
+        />
       <Section hero={hero} bg={bg} {...rest}>
         <Container>
           <Row className="align-items-center">
@@ -48,54 +48,48 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
             </Col>
             <Col lg="6">
               <div className="pl-lg-4 pt-5 pt-lg-0">
-                <Title color="light" variant="secSm">
-                  Steffie Harner
+                <Title color="dark" variant="secSm">
+                  find the beauty in chaos.
                 </Title>
                 <Text
                   color="light"
+                  variant="p"
                   className="mt-3 mt-lg-5"
                   css={`
                     line-height: 1.5;
                   `}
                 >
-                  Tokyo-based cyberpunk creator, and web developer. I can create
+                  tokyo-based concept artist, model, and ar/web developer. i create
                   memorable digital art & experiences for brands.
                 </Text>
-                <Text color="light" className="mt-4">
-                  I strive for a minimal and beautiful design.
-                </Text>
-                <div className="mt-4">
-                  <Text color="light">Email me at</Text>
-
-                  <Text variant="p">
-                    <a
-                      href="mailto:hello@folio.com"
-                      className="font-weight-bold"
-                    >
-                      <Span color="light">hello@folio.com</Span>
-                    </a>
-                  </Text>
-                </div>
-                <div className="mt-5">
+                {/* <div className="mt-5">
                   <img src={imgSignLight} alt="sign" className="img-fluid" />
-                </div>
-                {/* <Text color="light" className="mt-3 font-weight-bold">
-                  Bruce Ryan
+                </div> */}
+                <Text color="dark" variant="small" className="font-weight-bold mt-5">
+                  follow me on social
                 </Text>
-                <Text color="light" variant="small">
-                  Founder of Folio Digital
-                </Text> */}
-                <div className="mt-5 d-flex">
+                <Text color="dark" variant="large" className="font-weight-bold">
+                  @steffieharner
+                </Text>
+                <div className="mt-2 d-flex">
+                <LinkSocial
+                    href="https://www.instagram.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-weight-bold mr-3"
+                  >
+                    <FaInstagram />
+                  </LinkSocial>
                   <LinkSocial
                     href="https://www.twitter.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     className=" mr-3"
                   >
-                    <FaTwitter />
+                    <FaTwitter/>
                   </LinkSocial>
                   <LinkSocial
-                    href="https://www.facebook.com"
+                    href="https://www.facebook.com/steffieharnerofficial"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mr-3"
@@ -103,14 +97,30 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                     <FaFacebookF />
                   </LinkSocial>
                   <LinkSocial
-                    href="https://www.instagram.com"
+                    href="https://www.github.com/steffieharner"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="font-weight-bold"
+                    className="mr-3"
                   >
-                    <FaInstagram />
+                    <FaGithub />
+                  </LinkSocial>
+                  <LinkSocial
+                    href="https://www.linkedin.com/in/steffieharner"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mr-3"
+                  >
+                    <FaLinkedin />
                   </LinkSocial>
                 </div>
+                <Text className="mt-5 font-weight-bold" variant="p">let's work together →
+                    <a
+                      href="mailto:hi@steffieharner.com"
+                      className="font-weight-bold"
+                    >
+                      <Span color="light"> hi@steffieharner.com</Span>
+                    </a>
+                  </Text>
               </div>
             </Col>
           </Row>

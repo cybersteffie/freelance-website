@@ -3,6 +3,7 @@ import { rgba } from "polished";
 import styled from "styled-components";
 import { Container, Row, Col } from "react-bootstrap";
 import { FaTwitter, FaInstagram, FaGithub, FaEnvelope } from "react-icons/fa";
+import AnimatedCursor from "react-animated-cursor";
 
 import { Section, Title, Text, Span, Box } from "../../components/Core";
 import ContactForm from "../../components/ContactForm";
@@ -20,6 +21,14 @@ const ContactCard = styled.div`
 const Contact = ({ hero = true, bg = "dark", ...rest }) => {
   return (
     <>
+    <AnimatedCursor
+    innerSize={8}
+    outerSize={8}
+    color="130,136,228"
+    outerAlpha={0.4}
+    innerScale={0.7}
+    outerScale={7}
+    />
       <Section hero={hero} bg={bg} {...rest}>
         <Container>
           <Row className="justify-content-center">
@@ -29,7 +38,7 @@ const Contact = ({ hero = true, bg = "dark", ...rest }) => {
                   contact me
                 </Title>
                 <Text color="light" mb="2.75rem">
-                  have a project or question? send me a message.
+                 business related inquiries by email only.
                 </Text>
                 <ContactForm theme="dark" />
               </Box>

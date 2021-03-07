@@ -34,14 +34,14 @@ const Works = () => {
   return (
     <>
       {/* <!-- Works Area --> */}
-      <Section className="position-relative">
+      <Section id="work" className="position-relative">
         <Container>
           <Box mb="2.5rem">
             <ListNav className="nav text-center">
               <li className="nav-item">
                 <a
                   className={`nav-link font-weight-bold text-lowercase ${
-                    activeLink === "*" ? "active" : null
+                    activeLink === "work" ? "active" : null
                   }`}
                   onClick={(e) => {
                     e.preventDefault();
@@ -80,11 +80,11 @@ const Works = () => {
               <li className="nav-item">
                 <a
                   className={`nav-link font-weight-bold text-lowercase ${
-                    activeLink === "ux-design" ? "active" : null
+                    activeLink === "ar" ? "active" : null
                   }`}
                   onClick={(e) => {
                     e.preventDefault();
-                    filterBy("ux-design");
+                    filterBy("ar");
                   }}
                 >
                   AR FILTERS

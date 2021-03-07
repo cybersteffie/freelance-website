@@ -14,33 +14,22 @@ export const menuItems = [
   //   ],
   // },
   {
-    name: "portfolio",
+    name: "#work",
     label: "portfolio",
-    items: [
-      {
-        name: "#photo",
-        label: "photo",
-      },
-      {
-        name: "#web",
-        label: "web",
-      },
-      {
-        name: "#ar-filter",
-        label: "ar filters",
-        // items: [
-        //   {
-        //     name: "ar-filter",
-        //     label: "ar filters",
-        //   },
-        //   {
-        //     name: "ux design",
-        //     label: "web",
-        //   },
-
-        // ],
-      },
-    ],
+    // items: [
+    //   {
+    //     name: "#photo",
+    //     label: "photo",
+    //   },
+    //   {
+    //     name: "#web",
+    //     label: "web",
+    //   },
+    //   {
+    //     name: "#ar",
+    //     label: "ar filters",
+    //   },
+    // ],
   },
   // {
   //   name: "social",
